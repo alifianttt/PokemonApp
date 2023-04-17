@@ -71,5 +71,3 @@ Nfavorite/src/main/java/com/submission/pokemonapp/favorite/FavoriteViewModel.kt
 Lfavorite/src/main/java/com/submission/pokemonapp/favorite/FavoritePokemon.kt,6/f/6fd0ee8fa39647adb8afc6a437eac044fee4a81a
 U
 %favorite/src/main/AndroidManifest.xml,d/1/d14ee4df5184eb29655780f11be8025bc2e3d129
-<
-build.gradle,f/0/f07866736216be0ee2aba49e392191aeae700a35

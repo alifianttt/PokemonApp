@@ -21,10 +21,6 @@ s
 Ccore/src/main/java/com/submission/pokemonapp/core/utils/Constant.kt,e/4/e4a769462ab47e3a5f9fab29152c37c6d97aa1a4
 Œ
 \core/src/main/java/com/submission/pokemonapp/core/data/source/local/entity/PokemonEntitiy.kt,a/4/a4f307b5c0210b225cb59a4c1fddd284425e18d3
-E
-favorite/build.gradle,8/c/8c8745bd0abadf704a7e06b644de08950e69f323
-J
-shared_dependencies.gradle,b/e/bea21ad436ad8008e4327b60ad9d3401a26c6abc
 k
 ;app/src/main/java/com/submission/pokemonapp/MainActivity.kt,e/a/ea28b323409380004e7ca5d3e425e7eb6682df64
 w
@@ -43,12 +39,6 @@ Ccore/src/main/java/com/submission/pokemonapp/core/di/CoreModules.kt,7/8/787f41
 Tcore/src/main/java/com/submission/pokemonapp/core/domain/uiadapter/PokemonAdapter.kt,6/4/64750099ae3b754aaffbc1cdaafe0b7c569f6ae9
 ”
 dcore/src/main/java/com/submission/pokemonapp/core/data/source/remote/response/ListPokemonResponse.kt,c/6/c62749ec98b3d387f152f77650daa321b2fced54
-<
-build.gradle,f/0/f07866736216be0ee2aba49e392191aeae700a35
-A
-core/build.gradle,9/1/918ca359602392354123b7d3b63264baf7ea9dde
-@
-app/build.gradle,f/4/f4a01d6a4fcb971362ec00a83903fd3902f52164
 †
 Vcore/src/main/java/com/submission/pokemonapp/core/data/source/local/room/PokemonDao.kt,6/d/6d76ccea03e1f50964dcf169d1095841385a1052
 ‡

@@ -19,15 +19,15 @@ object DataMapper {
 
     fun mapResponseToEntities(inputData: List<PokemonResponse>): List<PokemonEntitiy>{
         val pokemonList = ArrayList<PokemonEntitiy>()
-            inputData.map {
-                val pokemon = PokemonEntitiy(
-                    id = it.id,
-                    name = it.name,
-                    url = it.url,
-                    isSave = false
-                )
-                pokemonList.add(pokemon)
-            }
+        inputData.map {
+            val pokemon = PokemonEntitiy(
+                id = it.id,
+                name = it.name,
+                url = it.url,
+                isSave = false
+            )
+            pokemonList.add(pokemon)
+        }
         return pokemonList
     }
 

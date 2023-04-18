@@ -57,8 +57,6 @@ Kcore/src/main/java/com/submission/pokemonapp/core/data/PokemonRepository.kt,a/
 acore/src/main/java/com/submission/pokemonapp/core/data/source/remote/network/PokemonApiService.kt,7/0/70a0fd5e11d34ee0e19b9e445bf10aea6eb0ed96
 x
 Happ/src/main/java/com/submission/pokemonapp/ui/detail/DetailViewModel.kt,d/e/de039b3b9e38f900bceb768ae51760c6be2ed35a
-U
-%favorite/src/main/AndroidManifest.xml,d/1/d14ee4df5184eb29655780f11be8025bc2e3d129
 r
 Bapp/src/main/java/com/submission/pokemonapp/ui/home/ListPokemon.kt,5/0/5098692f9ab5d27e25026bbc42e2922067f485ab
 l
@@ -67,7 +65,5 @@ k
 ;app/src/main/java/com/submission/pokemonapp/di/AppModule.kt,f/d/fd1a910ab8af7de45d5a0a9eca9b1b3d18242cfd
 ~
 Nfavorite/src/main/java/com/submission/pokemonapp/favorite/di/FavoriteModule.kt,5/7/57dfedb6b379bce3e934b0b45c6c8c63fb596e51
-|
-Lfavorite/src/main/java/com/submission/pokemonapp/favorite/FavoritePokemon.kt,6/f/6fd0ee8fa39647adb8afc6a437eac044fee4a81a
 ~
 Nfavorite/src/main/java/com/submission/pokemonapp/favorite/FavoriteViewModel.kt,9/a/9a75040eb879c791625780c32b99681cf66e39e7

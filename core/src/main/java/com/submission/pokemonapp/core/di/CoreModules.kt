@@ -9,6 +9,8 @@ import com.submission.pokemonapp.core.data.source.remote.network.PokemonApiServi
 import com.submission.pokemonapp.core.domain.repository.IPokemonRepo
 import com.submission.pokemonapp.core.utils.AppExecutors
 import com.submission.pokemonapp.core.utils.Constant
+import net.sqlcipher.database.SQLiteDatabase
+import net.sqlcipher.database.SupportFactory
 import okhttp3.CertificatePinner
 import okhttp3.OkHttpClient
 import okhttp3.logging.HttpLoggingInterceptor
@@ -22,10 +24,15 @@ import kotlin.math.sin
 val databaseModule = module {
     factory { get<PokemonDatabase>().pokemonDao() }
     single {
+        val passPhrase = SQLiteDatabase.getBytes("pokemon".toCharArray())
+        val factory = SupportFactory(passPhrase)
         Room.databaseBuilder(
             androidContext(),
             PokemonDatabase::class.java, "Pokemon.db"
-        ).fallbackToDestructiveMigration().build()
+        )
+            .fallbackToDestructiveMigration()
+            .openHelperFactory(factory)
+            .build()
     }
 }
 

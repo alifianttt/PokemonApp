@@ -20,6 +20,7 @@ class PokemonRepository(
 ) : IPokemonRepo {
     private var detailPokemon = flow<Pokemon> {  }
     private val listFavorite = ArrayList<PokemonEntitiy>()
+    private var isLocalDataempty = false
     override fun getListPokemon(): Flow<Resource<List<Pokemon>>> =
         object : NetworkBoundResource<List<Pokemon>, List<PokemonResponse>>() {
             override fun loadFromDB(): Flow<List<Pokemon>> {
@@ -40,8 +41,10 @@ class PokemonRepository(
                             newPokemon.isSave = favorite.isSave
                     }
                 }
-
-                localDataSource.insertAllPokemon(pokemonList)
+                localDataSource.getAllPokemonLocal().map {
+                    isLocalDataempty = it.isEmpty()
+                }
+                if (isLocalDataempty) localDataSource.insertAllPokemon(pokemonList)
 
             }
 

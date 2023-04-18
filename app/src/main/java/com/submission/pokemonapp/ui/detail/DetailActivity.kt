@@ -77,7 +77,7 @@ class DetailActivity : AppCompatActivity() {
     }
 
     private fun setButtonFav(state: Boolean){
-       binding.btnFavorite.setImageDrawable(ContextCompat.getDrawable(this, if (state) R.drawable.favorite_white else R.drawable.not_favorite_white))
+       binding.btnFavorite.setImageDrawable(ContextCompat.getDrawable(this, if (state) R.drawable.favorite else R.drawable.favorite_border))
     }
 
     private fun setDetailView(pokemonDetail: Pokemon?){

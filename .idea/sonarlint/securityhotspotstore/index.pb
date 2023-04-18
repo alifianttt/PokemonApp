@@ -45,5 +45,3 @@ l
 <app/src/main/java/com/submission/pokemonapp/MyApplication.kt,8/0/8063bc248a03d9535c4c5ca3c966044f96b5064c
 ~
 Nfavorite/src/main/java/com/submission/pokemonapp/favorite/FavoriteViewModel.kt,9/a/9a75040eb879c791625780c32b99681cf66e39e7
-P
- app/src/main/AndroidManifest.xml,8/c/8c55c3ccc257e5907959013f99656e4c8ec3903e

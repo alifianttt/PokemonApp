@@ -5,6 +5,7 @@ import androidx.fragment.app.Fragment
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
+import androidx.annotation.Keep
 import androidx.recyclerview.widget.GridLayoutManager
 import com.submission.pokemonapp.core.domain.uiadapter.PokemonAdapter
 import com.submission.pokemonapp.core.utils.setVisible
@@ -16,9 +17,10 @@ import org.koin.core.context.loadKoinModules
 
 
 class FavoritePokemon : Fragment() {
+    @delegate:Keep
+    private val favoriteViewModel: FavoriteViewModel by viewModel()
     private  var _binding: FragmentFavoritePokemonBinding? = null
     private val binding get() = _binding!!
-    private val favoriteViewModel: FavoriteViewModel by viewModel()
     override fun onCreateView(
         inflater: LayoutInflater, container: ViewGroup?,
         savedInstanceState: Bundle?

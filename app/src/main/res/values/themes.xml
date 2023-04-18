@@ -19,16 +19,4 @@
         <item name="windowNoTitle">true</item>
     </style>
 
-    <style name="Theme.PokemonApp.AppBarOverlay" parent="ThemeOverlay.AppCompat.Dark.ActionBar" />
-
-    <style name="Theme.PokemonApp.PopupOverlay" parent="ThemeOverlay.AppCompat.Light" />
-
-    <style name="Theme.PokemonApp.NoActionBar.NoActionBar">
-        <item name="windowActionBar">false</item>
-        <item name="windowNoTitle">true</item>
-    </style>
-
-    <style name="Theme.PokemonApp.NoActionBar.AppBarOverlay" parent="ThemeOverlay.AppCompat.Dark.ActionBar" />
-
-    <style name="Theme.PokemonApp.NoActionBar.PopupOverlay" parent="ThemeOverlay.AppCompat.Light" />
 </resources>

@@ -15,9 +15,8 @@ import com.submission.pokemonapp.ui.detail.DetailActivity
 import org.koin.android.viewmodel.ext.android.viewModel
 import org.koin.core.context.loadKoinModules
 
-
+@Keep
 class FavoritePokemon : Fragment() {
-    @delegate:Keep
     private val favoriteViewModel: FavoriteViewModel by viewModel()
     private  var _binding: FragmentFavoritePokemonBinding? = null
     private val binding get() = _binding!!

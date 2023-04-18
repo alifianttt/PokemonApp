@@ -26,7 +26,7 @@
                 app:layout_constraintEnd_toEndOf="parent"
                 app:layout_constraintStart_toStartOf="parent"
                 app:layout_constraintTop_toTopOf="parent"
-                android:contentDescription="TODO" />
+                android:contentDescription="@string/pokemon_sample_title" />
 
             <TextView
                 android:id="@+id/pokemonName"

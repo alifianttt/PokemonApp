@@ -30,7 +30,7 @@ class MainActivity : AppCompatActivity() {
         className = "$packakeName.FavoritePokemon"
         binding.bottomNavMenu.setOnItemSelectedListener {
             when(it.itemId){
-                R.id.home -> {
+                R.id.listmenu -> {
                     moveFragment(ListPokemon())
                     true
                 }

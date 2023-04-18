@@ -1,6 +1,6 @@
 package com.submission.pokemonapp.core.domain.uiadapter
 
-import android.util.Log
+import android.annotation.SuppressLint
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
@@ -18,6 +18,7 @@ class PokemonAdapter: RecyclerView.Adapter<PokemonAdapter.PokemonViewHolder>() {
     private var listPokemon = ArrayList<Pokemon>()
     var onItemClick: ((Pokemon) -> Unit)? = null
 
+    @SuppressLint("NotifyDataSetChanged")
     fun setData(newListPokemon: List<Pokemon>?){
         if (newListPokemon == null) return
         listPokemon.clear()
